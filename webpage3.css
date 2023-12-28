@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(37, 13, 13);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+
+#logo{
+    color: rgb(73, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    /* top: 10px; */
+    /* left: 40px; */
+    font-size: 20px ;
+   
+
+}
+#logo::first-letter{
+    color: rgb(239, 243, 234);
+}
+#top{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke   ;
+
+}
+li:hover{
+    color: rgb(56, 200, 200)   ;
+}
+
+
+#cards{
+    height: 75vh;
+    width: 100vw; 
+    background-color: rgb(147, 174, 201); 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    text-align: justify;
+    
+    
+}
+#card1{
+    height: 60vh;
+    width: 30vw;
+    background-color:beige;
+    
+    background-image: url("https://static2.tripoto.com/media/filter/nl/img/411684/TripDocument/1504866900_mallalli_falls_20161228025913.jpg");
+    background-repeat: no-repeat;
+    background-size: 30vw 40vh ;
+   
+    
+}
+
+#card2{
+    height: 60vh;
+    width: 30vw;
+    background-color: beige;
+    
+    background-image: url("https://pixahive.com/wp-content/uploads/2020/10/Harangi-Reservoir-122002-pixahive.jpg");
+    background-repeat: no-repeat;
+    background-size: 32vw 40vh ;
+}
+#card3{
+    height: 60vh;
+    width: 30vw;
+    background-color: beige;
+   
+    background-image: url("https://image3.mouthshut.com/images/imagesp/925754102s.jpg");
+    background-repeat: no-repeat;
+    background-size: 30vw 40vh ;
+}
+#cards h2{
+    position: relative;
+    top: 65%;
+    left: 20%;
+}
+#cards p{
+    position: relative;
+    top: 60%;
+    left: 0.5vw;
+    font-weight: bold;
+    height: 100px;
+    width: 430px;
+}
+
+#cards2{
+    height: 75vh;
+    width: 100vw; 
+    background-color: rgb(251, 252, 253); 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    text-align: justify;
+    
+}
+
+#card4{
+    height: 60vh;
+    width: 30vw;
+    background-color:beige;
+
+    background-image: url("http://4.bp.blogspot.com/-PW0i6alXw6U/UIlzaNbEkWI/AAAAAAAAWWY/5LVrit65GLg/s1600/Pushpa_6.jpg");
+    background-repeat: no-repeat;
+    background-size: 30vw 40vh ;
+   
+}
+
+#card5{
+    height: 60vh;
+    width: 30vw;
+    background-color:beige;
+    
+    background-image: url("https://image3.mouthshut.com/images/Restaurant/Photo/-74116_47019.jpg");
+    background-repeat: no-repeat;
+    background-size: 30vw 40vh ;
+}
+#card6{
+    height: 60vh;
+    width: 30vw;
+    background-color:beige;
+   
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.Y5WUbzVF0jrC1Llj7fk_jQHaEK&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 30vw 40vh ;
+}
+
+#cards2 h2{
+    position: relative;
+    top: 65%;
+    left: 28%;
+    height: 100px;
+    width: 320px;
+
+}
+#cards2 p{
+    position: relative;
+    top: 44%;
+    left: 0.5vw;
+    font-weight: bold;
+    height: 5px;
+    width: 440px;
+    text-overflow: clip;
+}
+
+ 
+
+#b{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+#form{
+    
+
+    height: 600px;
+    width: 100%;
+    margin:-55  0px 0px 0px 900px;
+    font-size: 30px;
+    
+}
+
+input{
+    line-height:  40px;
+    width: 30vw;
+}
+#bb{
+    background-color: rgb(194, 28, 25);
+    color: rgb(192, 151, 102);
+    font-weight: bolder;
+    font-size: 15px;
+    height: 30px;
+    width: 15vw;
+}
+
+
+
+#logo{
+    letter-spacing: 5px;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes text{
+    0%,22%,35%,45.4%,59%,73.6%,89%,99%{
+        color: black;
+    }
+    2%,16%,26.4%,39%,48.7%,62%,77%,91%{
+        color:orange;
+    }
+}
+h6{
+    font-size: 35px;
+    position: relative;
+    left: 40%;
+    text-shadow: 8px 8px 8px rgb(191, 143, 20);
+    text-decoration: underline rgb(200, 14, 14);
+}
+iframe{
+    width: 100vw;
+    height: 600px;
+}
+#cards2{
+    height: 75vh;
+    width: 100vw; 
+    background-color: rgb(147, 174, 201); 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    text-align: justify;
+
+}

@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+}
+
+#first{
+height: 70px;
+width: 100%;
+background-color:rgb(239, 132, 189);
+position: relative;
+
+}
+
+.fa-solid{
+ position: relative;
+ top:25px;
+ left:60px;
+}
+
+
+#one{
+    position: relative;
+    top:30px;
+    left:80px;
+    font-size:x-large;
+    color: white;
+}
+
+#one1{
+    position: relative;
+    top:1px;
+    left:880px;
+    font-size:large;
+    color:white;  
+}
+
+#two{
+    position:absolute;
+    top:30px;
+    left:480px;
+}
+
+ #three{
+    position: absolute;
+     top: 15px;       
+     left: 990px;
+     display: flex;
+     justify-content: space-around;
+    /* background-image: url(../HTML/images/insta-removebg-preview.png);
+    background-repeat: no-repeat; */
+}  
+
+#four{
+    background-color: rgb(139, 221, 164);
+    position:relative;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    color:rgb(24, 21, 21);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+#cards{
+    position: relative;
+bottom: 460px;
+    height: 240vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    #cards2{
+        position: relative;
+        bottom: 460px;
+    height: 240vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+    }
+    
+    #cards3{
+        position: relative;
+        bottom: 460px;
+    height: 240vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    #cardone{
+    
+        height: 65vh;
+        width: 20vw;
+background-image: url("https://tse2.mm.bing.net/th?id=OIP.F6yVf2Imue9obVkYPSqcGAHaFj&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    
+    
+    }
+    
+    #cardtwo{
+    
+    height: 65vh;
+    width: 20vw;
+background-image: url("https://tse3.mm.bing.net/th?id=OIP.SwQxKO3GzrM_uUCjDyU5zgHaJ3&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    
+    }
+    
+    #cardthree{
+        height: 65vh;
+        width: 20vw;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.649MFsje3cwwfEacYMoBVwHaEK&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    }
+    
+    #cardfour{
+        height: 65vh;
+        width: 20vw;
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.79kMCLIutrhwIWFgFohOEQHaHa&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    bottom:999px;
+    left:4px;
+    }
+    
+    
+    
+    #cardfive{
+        height: 65vh;
+        width: 20vw;
+        background-image: url("https://tse1.mm.bing.net/th?id=OIP.S1baEJOoxp80GJV_l3fjggHaDr&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    bottom:999px;
+    right:2px;
+    }
+    
+    #cardsix{
+        height: 65vh;
+        width: 20vw;
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.yWjU1qg6t-tr6Wkqo5pWKAHaHa&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    bottom:999px;
+    right:1px;
+    }
+    
+    #cardseven{
+        height: 65vh;
+        width: 20vw;
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.zrEf13UQGgyhaKyPRUxfcwHaEo&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    bottom:1999px;
+    right:1px;
+    }
+    
+    #cardeight{
+        height: 65vh;
+        width: 20vw;
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.1vxbNF0s96FlKPhGfSLKGAHaHa&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    bottom:1999px;
+    right:1px;
+    }
+    
+    #cardnine{
+        height: 65vh;
+        width: 20vw;
+background-image: url("https://tse3.mm.bing.net/th?id=OIP.ZaRxsV2K8PIArHKA3x2riwHaHa&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+    background-size: 20vw 50vh;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    bottom:1999px;
+    right:1px;
+    }
+    
+    #cardone h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardone p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+    font-family:'Courier New', Courier, monospace;    
+    }
+    
+    #cardtwo h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardtwo p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;    
+        
+    }
+    
+    
+    #cardthree h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardthree p{
+        position: relative;
+      
+        top:44vh;
+        left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;    
+        
+    }
+    
+    
+    
+    #cardfour h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardfour p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;    
+        
+    }
+    
+    #cardfive h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardfive p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;    
+        
+    }
+    
+    #cardsix h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardsix p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;    
+        
+    }
+    
+    #cardseven h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardseven p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;    
+        
+    }
+    
+    #cardeight h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardeight p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;    
+        
+    }
+    
+    #cardnine h3{
+        position: relative;
+       top:55vh;
+       left: 1vw;
+        
+    }
+    
+    #cardnine p{
+        position: relative;
+       top:44vh;
+       left:10px;
+       font-weight: 900;
+       color: rgb(11,11,11);
+       font-family:'Courier New', Courier, monospace;   
+    }
+#cardone:hover{
+    transform: scale(1.1);
+}
+#cardtwo:hover{
+    transform: scale(1.1);
+}
+#cardthree:hover{
+    transform: scale(1.1);
+}
+#cardfour:hover{
+    transform: scale(1.1);
+}
+#cardfive:hover{
+    transform: scale(1.1);
+}
+#cardsix:hover{
+    transform: scale(1.1);
+}
+#cardseven:hover{
+    transform: scale(1.1);
+}
+#cardeight:hover{
+    transform: scale(1.1);
+}
+#cardnine:hover{
+    transform: scale(1.1);
+}
+
+#four:hover{
+    color: rgb(239, 44, 10);
+    transition: all 2s linear 0s;
+}
